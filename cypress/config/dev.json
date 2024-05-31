@@ -1,0 +1,14 @@
+{
+    "url1": {
+      "baseUrl": "https://dev.shop.clarusway.net",
+      "apiKey": "your_url1_api_key",
+      "token": "token"
+    },
+
+    "url2": {
+      "baseUrl": "https://www.automationexercise.com"
+    }, 
+    "url3": {
+        "baseUrl": "https://www.medium.com"
+    }
+}

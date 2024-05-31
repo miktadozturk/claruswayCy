@@ -1,0 +1,10 @@
+{
+  "suites": 5,
+  "tests": 8,
+  "passes": 7,
+  "pending": 0,
+  "failures": 1,
+  "start": "2024-05-31T17:48:34.623Z",
+  "duration": 43399,
+  "file": "cypress\\e2e\\cypress-dersleri\\cypressFileIslemleri.cy.js"
+}

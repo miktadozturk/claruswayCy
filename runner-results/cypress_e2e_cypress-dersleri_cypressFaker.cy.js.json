@@ -1,0 +1,10 @@
+{
+  "suites": 2,
+  "tests": 4,
+  "passes": 4,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-31T17:48:23.530Z",
+  "duration": 72013,
+  "file": "cypress\\e2e\\cypress-dersleri\\cypressFaker.cy.js"
+}

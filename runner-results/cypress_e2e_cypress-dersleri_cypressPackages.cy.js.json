@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 5,
+  "passes": 5,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-31T17:50:44.331Z",
+  "duration": 39250,
+  "file": "cypress\\e2e\\cypress-dersleri\\cypressPackages.cy.js"
+}

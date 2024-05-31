@@ -1,0 +1,10 @@
+{
+  "suites": 5,
+  "tests": 8,
+  "passes": 6,
+  "pending": 0,
+  "failures": 2,
+  "start": "2024-05-31T17:47:43.016Z",
+  "duration": 30419,
+  "file": "cypress\\e2e\\cypress-dersleri\\cypressCookiesIsolationStorage.cy.js"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "cypress-dersleri-clarusway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:open:e2e": "cypress open --e2e",
+    "cy:open:chrome": "cypress open --e2e --browser chrome",
+    "cy:open:canary": "cypress open --e2e --browser canary",
+    "cy:open:firefox": "cypress open --e2e --browser firefox",
+    "cy:open:edge": "cypress open --e2e --browser edge",
+    "cy:open:electron": "cypress open --e2e --browser electron",
+    "cy:run:headed": "cypress run --headed",
+    "cy:run:headless": "cypress run --headless",
+    "cy:run:record": "cypress run --record --key 5135c7ee-ab1d-4bf0-9b99-4a48d7167d59",
+    "cy:run:dev": "cypress run --env='dev'",
+    "cy:run:staging": "cypress run --env='staging' ",
+    "cy:run:preprod": "cypress run --env='prepord'",
+    "cy:info": "cypress info",
+    "cy:version": "cypress version",
+    "cy:cache:list": "cypress cache list",
+    "cy:verify": "cypress verify",
+    "cy:e2e:firstFolder": "cypress run --spec 'cypress/e2e/1-getting-started/'",
+    "cy:e2e:cypress-dersleri": "cypress run --spec 'cypress/e2e/cypress-dersleri/' --browser chrome --headed",
+    "cy:parallel:cypress-dersleri": "cypress-parallel -d cypress/e2e/cypress-dersleri -t 3 -s cy:run:headed",
+    "cy:parallel:advanced-examples": "cypress-parallel -d cypress/e2e/2-advanced-examples -t 5 -s cy:run:headless",
+    "cy:parallel:getting-started": "cypress-parallel -d cypress/e2e/1-getting-started -t 10 -s cy:run:headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "@cypress/grep": "^4.0.1",
+    "@faker-js/faker": "^8.4.1",
+    "allure-commandline": "^2.29.0",
+    "allure-cypress": "^2.15.1",
+    "cypress": "^13.10.0",
+    "cypress-delete-downloads-folder": "^0.0.5",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-if": "^1.12.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1",
+    "playwright-webkit": "^1.44.1"
+  },
+  "dependencies": {
+    "cypress-parallel": "^0.14.0",
+    "cypress-real-events": "^1.12.0"
+  }
+}

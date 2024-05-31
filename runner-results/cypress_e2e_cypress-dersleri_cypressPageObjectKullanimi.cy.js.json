@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-31T17:51:01.634Z",
+  "duration": 11824,
+  "file": "cypress\\e2e\\cypress-dersleri\\cypressPageObjectKullanimi.cy.js"
+}

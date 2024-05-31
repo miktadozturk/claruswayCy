@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-31T17:50:08.009Z",
+  "duration": 26169,
+  "file": "cypress\\e2e\\cypress-dersleri\\PracticeTestRecord.cy.js"
+}

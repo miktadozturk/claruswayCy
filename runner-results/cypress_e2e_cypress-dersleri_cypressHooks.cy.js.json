@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 3,
+  "passes": 3,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-31T17:49:43.881Z",
+  "duration": 53440,
+  "file": "cypress\\e2e\\cypress-dersleri\\cypressHooks.cy.js"
+}

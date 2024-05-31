@@ -1,0 +1,11 @@
+{
+    "url1": {
+      "baseUrl": "https://shop.staging.clarusway.net",
+      "apiKey": "your_url1_api_key",
+      "token": "token"
+    },
+
+    "url2": {
+      "baseUrl": "https://www.staging.google.com"
+    }
+}
